@@ -12,23 +12,22 @@ Find-A-Doc is a PHP-based website designed to schedule patient appointments with
 ## Key Features:
 1. User Registration: Patients and doctors can register by providing their name, email, contact number, location, password. Later, the authentication process will be carried out by a verification link sent via email.
    
-2. Booking: Patients can book an appointment by providing doctor's email, date, time and see the status of their appointments. Appointments are booked without overlapping time slots or conflicting schedules.
+2. Booking: Patients can book an appointment by providing doctor's email, date, time and see the status of their appointments. Appointments are booked without overlapping time slots or conflicting schedules. Patients can reschedule too if their appointment gets cancelled.
 
 3. Search and Filter:
 A patient can search for doctors and check their credentials. Doctors can be filtered according to their specialties and location.
 
-5. Manage Appointments: Doctors can see their scheduled appointments and details and accept/cancel them.
+4. History: Patients and doctors can see history of previous appointmnents.
    
-6. Reschedule: Patients can reschedule their appointmnents if they get cancelled.
 
-7. Feedback : A patient can give a feedback regarding the system. 
+6. Review : A patient can give a feedback/review regarding the system. 
 
 
 ## Application of RDBMS (Relational Database Management System):
 
 From the diagram, we can see that the entities are doctor, patient, requests, reviews. 
 
-![Alt Text](erd.png)
+![Alt Text](images/erd.png)
 
 
 
